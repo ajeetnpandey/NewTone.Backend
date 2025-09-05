@@ -11,6 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewTone.BuildingBlocks", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTone.Dashboard.Api", "src\NewTone.Dashboard\NewTone.Dashboard.Api\NewTone.Dashboard.Api.csproj", "{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTone.BuildingBlocks", "src\NewTone.BuildingBlocks\NewTone.BuildingBlocks\NewTone.BuildingBlocks.csproj", "{DB1E502E-42D1-4624-87BE-D676A81DD308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTone.Dashboard.Application", "src\NewTone.Dashboard\NewTone.Dashboard.Application\NewTone.Dashboard.Application.csproj", "{B02FFE86-0AB2-4EF3-AD05-C9C80B1F7900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTone.Dashboard.Domain", "src\NewTone.Dashboard\NewTone.Dashboard.Domain\NewTone.Dashboard.Domain.csproj", "{12438633-5329-44A5-91E7-CE2D1E982D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTone.Dashboard.Infrastructure", "src\NewTone.Dashboard\NewTone.Dashboard.Infrastructure\NewTone.Dashboard.Infrastructure.csproj", "{FF6681B2-F3B7-4958-855E-8E726C310576}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB1E502E-42D1-4624-87BE-D676A81DD308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1E502E-42D1-4624-87BE-D676A81DD308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1E502E-42D1-4624-87BE-D676A81DD308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1E502E-42D1-4624-87BE-D676A81DD308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02FFE86-0AB2-4EF3-AD05-C9C80B1F7900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02FFE86-0AB2-4EF3-AD05-C9C80B1F7900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02FFE86-0AB2-4EF3-AD05-C9C80B1F7900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02FFE86-0AB2-4EF3-AD05-C9C80B1F7900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12438633-5329-44A5-91E7-CE2D1E982D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12438633-5329-44A5-91E7-CE2D1E982D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12438633-5329-44A5-91E7-CE2D1E982D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12438633-5329-44A5-91E7-CE2D1E982D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6681B2-F3B7-4958-855E-8E726C310576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6681B2-F3B7-4958-855E-8E726C310576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6681B2-F3B7-4958-855E-8E726C310576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6681B2-F3B7-4958-855E-8E726C310576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +53,10 @@ Global
 		{76975890-3F01-4252-BF8A-8B0AD22D6861} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{311F5405-4EE1-4980-9C81-8D9CE825839B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F} = {76975890-3F01-4252-BF8A-8B0AD22D6861}
+		{DB1E502E-42D1-4624-87BE-D676A81DD308} = {311F5405-4EE1-4980-9C81-8D9CE825839B}
+		{B02FFE86-0AB2-4EF3-AD05-C9C80B1F7900} = {76975890-3F01-4252-BF8A-8B0AD22D6861}
+		{12438633-5329-44A5-91E7-CE2D1E982D28} = {76975890-3F01-4252-BF8A-8B0AD22D6861}
+		{FF6681B2-F3B7-4958-855E-8E726C310576} = {76975890-3F01-4252-BF8A-8B0AD22D6861}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FF72082-8F9B-4498-BCD4-C91127E54051}
