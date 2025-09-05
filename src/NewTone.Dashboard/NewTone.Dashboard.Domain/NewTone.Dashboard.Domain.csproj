@@ -6,4 +6,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\NewTone.BuildingBlocks\NewTone.BuildingBlocks\NewTone.BuildingBlocks.csproj" />
+  </ItemGroup>
+
 </Project>

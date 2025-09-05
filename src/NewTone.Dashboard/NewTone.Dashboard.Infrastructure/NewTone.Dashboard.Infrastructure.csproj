@@ -6,4 +6,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NewTone.Dashboard.Domain\NewTone.Dashboard.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
