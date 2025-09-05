@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewTone.Dashboard", "NewTone.Dashboard", "{76975890-3F01-4252-BF8A-8B0AD22D6861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewTone.BuildingBlocks", "NewTone.BuildingBlocks", "{311F5405-4EE1-4980-9C81-8D9CE825839B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTone.Dashboard.Api", "src\NewTone.Dashboard\NewTone.Dashboard.Api\NewTone.Dashboard.Api.csproj", "{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76975890-3F01-4252-BF8A-8B0AD22D6861} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{311F5405-4EE1-4980-9C81-8D9CE825839B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BC1C4556-A641-49E3-8F63-CB0CD6E5B97F} = {76975890-3F01-4252-BF8A-8B0AD22D6861}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FF72082-8F9B-4498-BCD4-C91127E54051}
+	EndGlobalSection
+EndGlobal
